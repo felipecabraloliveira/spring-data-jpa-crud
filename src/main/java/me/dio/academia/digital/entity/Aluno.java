@@ -29,17 +29,19 @@ public class Aluno {
 
   private String endereco;
 
-  private int numero;
+  private String numero;
 
   private String bairro;
 
   private String cidade;
 
+  private String estado;
+
   private LocalDate dataDeNascimento;
 
-  private int contatoCelular;
+  private String contatoCelular;
 
-  private int contatoRecado;
+  private String contatoRecado;
 
   @OneToMany(mappedBy = "aluno", fetch = FetchType.LAZY)
   @JsonIgnore

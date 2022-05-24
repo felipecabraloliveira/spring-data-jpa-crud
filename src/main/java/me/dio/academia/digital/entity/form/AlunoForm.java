@@ -8,7 +8,17 @@ public class AlunoForm {
 
   private String cpf;
 
+  private String endereco;
+
+  private int numero;
+
   private String bairro;
 
+  private String cidade;
+
   private LocalDate dataDeNascimento;
+
+  private int contatoCelular;
+
+  private int contatoRecado;
 }

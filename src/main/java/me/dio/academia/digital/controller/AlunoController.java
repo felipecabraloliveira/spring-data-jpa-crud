@@ -18,7 +18,7 @@ public class AlunoController {
     private AlunoServiceImpl service;
 
     @PostMapping
-    public Aluno create(@Valid @RequestBody AlunoForm form) {
+    public Aluno create(@Valid @RequestBody AlunoForm form) { // @Valid habilita a verificação do form.
         return service.create(form);
     }
 

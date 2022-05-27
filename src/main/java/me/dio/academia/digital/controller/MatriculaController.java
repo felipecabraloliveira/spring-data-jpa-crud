@@ -25,5 +25,4 @@ public class MatriculaController {
     public List<Matricula> getAll(@RequestParam(value = "bairro", required = false) String bairro) {
         return service.getAll(bairro);
     }
-
 }
